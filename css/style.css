@@ -1,0 +1,376 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    height: 13vh;
+    /* background-color: grey; */
+    /* border: 4px solid rgb(0, 0, 0 ,0.7); */
+    border: 2px solid white;
+    position: sticky;
+    
+}
+.banner h4{
+ color: blue;
+ 
+}
+.banner h4{
+  font-size: 11px;
+}
+.banner p{
+    font-size: 10px;
+}
+.banner{
+    margin-left: 180px;
+    height: 87vh;
+}
+/* .container-fluid{
+    padding: 70px 0px 90px;
+    background-color: #d8ebf2;
+} */
+/* .col-md-12{
+    font-size: 24px;
+    font-family: MyriadPro-Semibold;
+    padding:5px;
+    margin-left: 45%;
+} */
+/* .container h2{
+    margin-top: 15%;
+
+} */
+/* .box-main{
+    width: 100%;
+    background-color: #d8ebf2;
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+} */
+
+.container h2{
+    color: blue;
+    margin-bottom: 50px;
+}
+.container row{
+    font-size: 40px;
+}
+.fysnapshotsec{
+    background-color: #d8ebf2;
+    font-size: 20px;
+    padding: 65px 0 65px;
+}
+.fysnapshotsec p{
+font-size: 18px;
+padding-top: 5px;
+color: blue;
+font-family: Myriad Pro-Semibold;
+}
+.fysnapshotsec h3 {
+    font-size: 40px;
+    color: #1968b3;
+    font-family: MyriadPro-Semibold;
+    /* border-bottom: 1px    solid #5a4089; */
+    /* margin-right: 50px;
+    padding-bottom: 5px; */
+}
+.missionvisionsec h2{
+    font-size: 36px;
+    color: #594189;
+    padding-top: 40px;
+    font-family: MyriadPro-Semibold;
+}
+.missionvisionsec h2,h4{
+    margin: 0px;
+}
+.missionvisionsec h4{
+    font-size: 24px;
+    color: #41ad49;
+    padding: 5px 0px 20px;
+    font-family: MyriadPro-SemiboldIT;
+}
+.missionvisionsec{
+    padding: 65px 0 65px;
+}
+.mvicon{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.mvicon h2{
+    padding-top: 0px;
+    font-size: 30px;
+    color: #514189;
+    font-family: MyriadPro-Semibold;
+    margin-left: 12px;
+}
+
+.valuesdata{
+    display: flex;
+    padding-left: 65px;
+    align-items: center;
+}
+.valuesec ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    align-items: center;
+    width: 100%;
+}
+ul{
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.chairmansec{
+    position: relative;
+    height: 100vh;
+    display: flex;
+}
+.pchampoimg{
+    position: absolute;
+    top: 0;
+    left: 0px;
+    width: 50%;
+    height: 100vh;
+    /* background-image: url(../background.png); */
+    
+    background-size: cover;
+    background-position: center;
+}
+.chairmansec .container .col-xl-6{
+    display: flex;
+    padding-left: 80px;
+    height: 100%;
+    align-items: center;
+    
+}
+/* .chairman .container{
+    height: 100%;
+} */
+/* .flexdata{
+    justify-content: center;
+    align-items: center;
+} */
+.charimrightwave{
+    position: absolute;
+    top: 0px;
+        width: 50%;
+        background-image: url(../chairman.png);
+        background-size: cover;
+        height: 100vh;
+        z-index: -1;
+}
+
+.managersec .photo{
+    position: absolute;
+    background-image: url(../image.png);
+    width: 50%;
+    /* top: 0px; */
+    background-size: cover;
+    height: 100vh;
+    z-index: -1;
+    right: 0;
+
+}
+/* .mngsec{
+        position: absolute;
+        top: 0;
+        left: 0px;
+        width: 50%;
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+    } */
+    .managersec .container .col-xl-6{
+        display: flex;
+        padding-right: 80px;
+        height: 100%;
+        align-items: center;
+        
+    }
+    .managersec{
+        position: relative;
+        height: 100vh;
+        display: flex;
+        
+    }
+.managersec h4 span{
+    color: blue;
+}
+.ourbodirectors{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../main.png);
+    background-size: cover;
+    background-position: center;
+}
+.ourbodirectors h2 span{
+    color: white;
+    
+}
+.farm{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 948px;
+    margin: 0 auto;
+    min-height: 825px;
+    position: relative;
+    background-image: url(../farmer.png)
+    
+}
+.operator{
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 948px;
+    margin: 0 auto;
+    min-height: 662px;
+    position: relative;
+    background-image: url(../operating.png);
+}
+.employees{
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 948px;
+    margin: 0 auto;
+    min-height: 662px;
+    position: relative;
+    background-image: url(../employees.png);
+}
+.service-banner h3 span{
+    color: blue;
+}
+.service-banner{
+    position: relative;
+    padding-top: 115px;
+    overflow: hidden;
+    
+}
+.img-responsive{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.s-banner-text{
+    justify-content: space-between;
+    position: absolute;
+    left: 8%;
+    bottom: 8%;
+    width: 82%;
+    color: white;
+
+
+}
+.s-banner-img{
+    margin-bottom: 30px;
+    overflow: hidden;
+    position: relative;
+}
+
+
+.container{
+    width: 1170px;
+}
+
+.capital{
+    transform: translate(0px, 103.001px);
+    inset: 0px auto auto 0px;
+    margin-right: 23px;
+    max-width: 185.547px;
+    width: 185.547px;
+    max-height: 308.5px;
+    height: 308.5px;
+    padding: 0px;
+}
+.capital h4{
+    position: relative;
+    left: 0px;
+
+}
+.service-banner .col-md-2{
+    width: 16.66666667%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 53px;
+    
+}
+.s-banner-img1{
+    padding-top: 100px;
+}
+
+.col-md-2 h4{
+    font-size: 35px;
+    padding-top: 220px;
+    padding-bottom: 50px;
+    color: #594189;
+    font-family: MyriadPro-Semibold;
+}
+.col-md-9{
+    float: left;
+    width: 75%;
+    box-sizing: border-box;
+}
+.col-md-6{
+    width: 50%;
+}
+.branding-journy h3 {
+    font-size: 36px;
+    padding-top: 90px;
+    padding-bottom: 50px;
+    color: #594189;
+    font-family: MyriadPro-Semibold;
+    text-align: center;
+}
+.awards h3{
+    font-size: 36px;
+    padding-bottom: 60px;
+    color: white;
+    font-family: MyriadPro-Semibold;
+    text-align: center;
+}
+.awards{
+    background-color: blue;
+    margin-top: 60px;
+    padding: 100px 0px;
+}
+footer{
+        background-color: #f8f8f8;
+        padding-top: 20px;
+        width: 100%;
+}
+/* footer .container{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+} */
+.footer-btm {
+    background-color: #1968b3;
+    padding: 6px 0px;
+    margin-top: 20px;
+}
+.download{
+    padding: 70px 0px;
+    position: relative;
+}
+.download li{
+    list-style: none;
+
+}
+.d-pdf li a{
+    text-decoration: none;
+}
+.d-pdf li a img{
+    float: right;
+}
+.d-pdf li a span{
+    color: black;
+}
+
+
+
